@@ -24,8 +24,8 @@ jobs:
       fail-fast: false
       matrix:
         alien:
-#          - install_type: share
-#            package: m4
+          - install_type: share
+            package: m4
           - install_type: system
             packages: mingw-w64-x86_64-libarchive
 
